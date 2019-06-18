@@ -1,5 +1,5 @@
 Here is the domain: <br />
-![](https://github.com/bu-air-lab/virtual-chauffeur-agent/domain.jpg)
+![](https://github.com/bu-air-lab/virtual-chauffeur-agent/blob/master/domain.jpg)
 
 Expected output: <br/>
 
