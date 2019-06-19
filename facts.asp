@@ -1,8 +1,9 @@
-
-% There are three locations
-location(p1).
-location(p2).
-location(p3).
-
-
-
+location(broadway).
+location(timessq).
+location(jfk).
+location(newark).
+location(harlem).
+location(brooklyn).
+passenger(bob).
+passenger(carol).
+passenger(kate).
