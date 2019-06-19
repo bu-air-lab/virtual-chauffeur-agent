@@ -11,6 +11,9 @@ step(0..n).
 #show onboard/1.
 #show drive/3.
 #show offboard/1.
+#show car_at/2.
+#show passenger_at/2.
+#show carisfull/1.
 
 
 

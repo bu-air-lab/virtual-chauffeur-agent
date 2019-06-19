@@ -9,5 +9,6 @@ passenger_at(p2,0).
 
 
 %%%%%%%%%%%% goal: Both car and passneger be at location 3 and the car being empty  %%%%%%%%%%%%%%%%%%%%%
-:- not car_at(p3,n), passenger_at(p3,n), -carisfull(n). 
-:- not car_at(p3,n). 
+%:- not car_at(p3,n), not passenger_at(p3,n), not -carisfull(n). 
+ :- not passenger_at(p3,n-1).
+ :- not -carisfull(n). 

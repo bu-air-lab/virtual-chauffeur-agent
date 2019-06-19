@@ -6,6 +6,7 @@ step(0..n).
 }1 :- step(I), I>=0, I<n.
 
 #show drive/3.
+#show car_at/2.
 
 
 

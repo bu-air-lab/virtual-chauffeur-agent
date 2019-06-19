@@ -8,3 +8,4 @@ car_at(p1,0).
 
 %%%%%%%%%%%% goal: car must be at location 3 and the car being empty  %%%%%%%%%%%%%%%%%%%%% 
 :- not car_at(p3,n). 
+:- not car_at(p2,1).
