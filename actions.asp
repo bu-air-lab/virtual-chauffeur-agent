@@ -1,5 +1,5 @@
 step(0..n).
-
+number(0..3).
 
 1{
 	drive(X,Y,I):location(X),location(Y),X!=Y;
@@ -14,7 +14,7 @@ step(0..n).
 #show offboard/3.
 %#show car_at/2.
 %#show passenger_at/3.
-#show carisfull/1.
+%#show carisfull/2.
 
 
 

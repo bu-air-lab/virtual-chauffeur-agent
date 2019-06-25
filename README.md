@@ -1,11 +1,16 @@
-Here is the domain: <br />
-![](https://github.com/bu-air-lab/virtual-chauffeur-agent/blob/master/domain.jpg)
 
-Expected output: <br/>
+UPhoto of each domain indicating the initial and goal state are in their corresponding folder.
 
-drive(p1,p2,0) <br />
-onboard(1) <br />
-drive(p2,p3,2) <br />
-offboard(3) <br />
-
+## How to run domain1
+```sh
+$ clingo *.asp domain1/*.asp -c n=8
+```
+## How to run domain2
+```sh
+$ clingo *.asp domain2/*.asp -c n=9
+```
+## How to run domain3
+```sh
+$ clingo *.asp domain3/*.asp -c n=12
+```
 

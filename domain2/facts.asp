@@ -1,0 +1,9 @@
+location(broadway).
+location(timessq).
+location(jfk).
+location(newark).
+location(harlem).
+location(brooklyn).
+passenger(bob).
+passenger(carol).
+passenger(kate).
