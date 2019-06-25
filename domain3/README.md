@@ -1,5 +1,5 @@
 Here is the domain: <br />
-![](https://github.com/bu-air-lab/virtual-chauffeur-agent/domain3/blob/master/domain3.jpg)
+![](https://github.com/bu-air-lab/virtual-chauffeur-agent/blob/master/domain3/domain3.jpg)
 
 
 
