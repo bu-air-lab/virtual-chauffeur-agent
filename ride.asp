@@ -1,6 +1,11 @@
 
 
 
+%%%%%%%%%%%%%waitforpassenger%%%%%%%%%%%%%%%%
+
+serviceconfirmed(P,I+1) :- waitforpassenger(P,I), -serviceconfirmed(P,I), step(I),passenger(P),I>=0,I<n.
+-serviceconfirmed(P,I+1) :- waitforpassenger(P,I), serviceconfirmed(P,I), step(I),passenger(P),I>=0,I<n.
+
 
 %%%%%% Driving from X to Y changes the car location from X to Y in the following timestep %%%%%%%%%%
 
@@ -18,7 +23,7 @@ carisfull(I+1) :- car_at(X,I), passenger_at(P,X,I), onboard(P,X,I), step(I), -ca
 
 %%%%%%%%%%%%%%%%%%% Offboarding makes the car not full, precondition: car being full, (maybe) both passenger and car at the same location
 
--carisfull(I+1), -serviceconfirmed(P,I) :- car_at(X,I),passenger_at(P,X,I),serviceconfirmed(P,I),carisfull(I), offboard(P,X,I), step(I), passenger(P), I>=0, carisfull(I), I<n, location(X).
+-carisfull(I+1):- car_at(X,I),passenger_at(P,X,I),serviceconfirmed(P,I),carisfull(I), offboard(P,X,I), step(I), passenger(P), I>=0, carisfull(I), I<n, location(X).
 
 
 
