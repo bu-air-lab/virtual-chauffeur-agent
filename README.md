@@ -6,17 +6,17 @@ $ sudo apt-get install gringo
 ```
 
 ## Actions:
-**drive(X,Y,I)** : Driving from location X to location Y at time I 
-**onboard(P,X,I)** : Onboarding passenger P at location X at time I 
-**offboard(P,X,I)** : Offboarding passenger P at location X at time I  
-**waitforpassenger(P,I)** : Waiting for passenger at time I 
+**drive(X,Y,I)** : Driving from location X to location Y at time I <br />
+**onboard(P,X,I)** : Onboarding passenger P at location X at time I <br />
+**offboard(P,X,I)** : Offboarding passenger P at location X at time I  <br />
+**waitforpassenger(P,I)** : Waiting for passenger at time I <br />
 
 ## Fluents:
 Fluents are atoms that can change as the result of an action execution. An atom can be true, false or not known.
-**serviceconfirmed(P,I)** : if true, service is confirmed for pasenger P at time I
-**car_at(Y,I)** : if true, car is at location Y at time I
-**carisfull(I,N)**: if true, car is full at time I and can not accept more passengers
-**passincar(P,I)**: if true, passenger P is inside the car
+**serviceconfirmed(P,I)** : if true, service is confirmed for pasenger P at time I <br />
+**car_at(Y,I)** : if true, car is at location Y at time I <br />
+**carisfull(I,N)**: if true, car is full at time I and can not accept more passengers <br />
+**passincar(P,I)**: if true, passenger P is inside the car <br />
 
 ## Domains
 We made a domain consisting of landmarks in New York city (Times sq, Broadway st, Harlem, Brooklyn, JFK) and three virtual passengers (Bob, Carol and Kate). Given the three various initial locations, the planner outputs a plan consisiting a sequence of actions to complete the ride of each passenger.
