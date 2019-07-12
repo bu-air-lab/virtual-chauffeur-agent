@@ -15,6 +15,9 @@ passenger_at(carol,timessq,0).
  -doorisopen(0).
  -isgreeted(bob,0).
  -isgreeted(carol,0).
+ -authenticated(bob, 0).
+ -authenticated(carol, 0).
+
 
 %%%%%%%%%%%% goal: Both car and passneger be at jfk %%%%%%%%%%%%%%%%%%%%%
  :- not passenger_at(bob,jfk,n).

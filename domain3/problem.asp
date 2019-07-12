@@ -14,10 +14,16 @@ passenger_at(kate,jfk,0).
 -serviceconfirmed(bob,0).
 -serviceconfirmed(carol,0).
 -serviceconfirmed(kate,0).
--doorisopen(0).
+-doorisopen(bob,0).
+-doorisopen(carol,0).
+-doorisopen(kate,0).
 -isgreeted(kate,0).
 -isgreeted(bob,0).
 -isgreeted(carol,0).
+-authenticated(kate,0).
+-authenticated(bob,0).
+-authenticated(carol,0).
+
 
 
 %%%%%%%%%%%% goal: Both car and passneger be at jfk %%%%%%%%%%%%%%%%%%%%%

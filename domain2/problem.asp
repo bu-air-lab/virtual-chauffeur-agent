@@ -12,11 +12,15 @@ passenger_at(carol,brooklyn,0).
 -passincar(carol,0).
 -serviceconfirmed(bob,0).
 -serviceconfirmed(carol,0).
--doorisopen(0).
+-doorisopen(bob,0).
+-doorisopen(carol,0).
 -isgreeted(bob,0).
 -isgreeted(carol,0).
+-authenticated(bob,0).
+-authenticated(carol,0).
 
-%%%%%%%%%%%% goal: Both car and passneger be at jfk %%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%% goal: Both car and passneger be at jfk %%%%%%%%%%%%%%%%%%%%%
  :- not passenger_at(bob,jfk,n).
  :- not passenger_at(carol,jfk,n).
 
