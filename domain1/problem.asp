@@ -12,7 +12,9 @@ passenger_at(carol,timessq,0).
 -passincar(carol,0).
 -serviceconfirmed(bob,0).
 -serviceconfirmed(carol,0).
-
+ -doorisopen(0).
+ -isgreeted(bob,0).
+ -isgreeted(carol,0).
 
 %%%%%%%%%%%% goal: Both car and passneger be at jfk %%%%%%%%%%%%%%%%%%%%%
  :- not passenger_at(bob,jfk,n).
