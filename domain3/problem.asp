@@ -23,6 +23,10 @@ passenger_at(kate,jfk,0).
 -authenticated(kate,0).
 -authenticated(bob,0).
 -authenticated(carol,0).
+-luggageloaded(bob,0).
+-luggageloaded(carol,0).
+-luggageloaded(kate,0).
+
 
 
 

@@ -9,6 +9,7 @@ number(0..3).
 	greetpassenger(P,I): passenger(P);
 	authenticatepassenger(P,I): passenger(P);
 	opendoor(P,I): passenger(P);
+	loadluggage(P,I) : passenger(P) ;
 	closedoor(P,I): passenger(P)
 }1 :- step(I), I>=0, I<n.
 
@@ -18,6 +19,7 @@ number(0..3).
 #show authenticatepassenger/2.
 #show greetpassenger/2.
 #show opendoor/2.
+#show loadluggage/2.
 #show closedoor/2.
 #show offboard/3.
 %#show car_at/2.

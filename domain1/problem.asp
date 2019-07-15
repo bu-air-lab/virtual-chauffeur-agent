@@ -13,11 +13,13 @@ passenger_at(carol,timessq,0).
 -serviceconfirmed(bob,0).
 -serviceconfirmed(carol,0).
  -doorisopen(bob,0).
- -doorisopen(carol,0)
+ -doorisopen(carol,0).
  -isgreeted(bob,0).
  -isgreeted(carol,0).
  -authenticated(bob, 0).
  -authenticated(carol, 0).
+ -luggageloaded(bob,0).
+ -luggageloaded(carol,0).
 
 
 %%%%%%%%%%%% goal: Both car and passneger be at jfk %%%%%%%%%%%%%%%%%%%%%
