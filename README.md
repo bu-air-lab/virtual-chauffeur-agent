@@ -47,3 +47,9 @@ The car is initially at Broadway, Bob is at Times Sq, Carol is at Brooklyn and b
 ```sh
 $ clingo *.asp domain3/*.asp -c n=32
 ```
+### Custom Domain
+Using any of the names/locations in the domain3/facts.asp, you can run a simulator to see the output:
+
+```sh
+$ python simulator.py
+```
